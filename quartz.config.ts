@@ -14,7 +14,7 @@ const config: QuartzConfig = {
 		analytics: {
 		},
 		locale: "en-US",
-		baseUrl: "",
+		baseUrl: "https://corvusdeinanis.github.io/docsquartzfork/",
 		ignorePatterns: ["private", "templates", ".obsidian"],
 		defaultDateType: "created",
 		theme: {
