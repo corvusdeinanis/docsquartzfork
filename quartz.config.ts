@@ -8,14 +8,13 @@ import * as Plugin from "./quartz/plugins";
  */
 const config: QuartzConfig = {
 	configuration: {
-		pageTitle: "🔗 GitHub Publisher",
+		pageTitle: "Astrodex",
 		enableSPA: true,
 		enablePopovers: true,
 		analytics: {
-			provider: "plausible",
 		},
 		locale: "en-US",
-		baseUrl: "https://obsidian-publisher.netlify.app/",
+		baseUrl: "",
 		ignorePatterns: ["private", "templates", ".obsidian"],
 		defaultDateType: "created",
 		theme: {
